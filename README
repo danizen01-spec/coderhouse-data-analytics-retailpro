@@ -1,8 +1,9 @@
 # coderhouse-data-analytics-retailpr
 
-En el Módulo 4 se mantuvo la nomenclatura en inglés utilizada en el Módulo 3 para conservar la estructura original de las tablas.
-En caso de reutilizar la tabla 'sales' en los siguientes módulos, se adaptará su nombre y el de sus columnas al español para mantener la coherencia con el proyecto RetailPro, desarrollado desde el Módulo 1.
-Estas diferencias de nomenclatura no afectan el cumplimiento de los objetivos de la actividad.
+En el Módulo 4 se mantuvo la nomenclatura en inglés de la tabla sales y sus columnas, siguiendo la estructura utilizada en la actividad original.
+Las consultas desarrolladas permiten analizar la facturación mensual, identificar los productos con mayores ingresos, reconocer clientes recurrentes y comparar las ventas mensuales con su promedio.
+En caso de reutilizar estas consultas en el proyecto RetailPro, se adaptarán los nombres de las tablas y columnas al español, manteniendo la coherencia con las modificaciones realizadas desde el Módulo 1.
+Estas diferencias de nomenclatura no afectan el objetivo de la actividad.
 
 ## Adaptaciones de la base de datos al proyecto RetailPro del Modulo 3 para el el Modulo 5.
 Para mantener la continuidad con el proyecto RetailPro, desarrollado desde el Módulo 1, se realizaron algunas modificaciones en la estructura original de la base de datos.
@@ -14,7 +15,7 @@ El objetivo de estos cambios fue adaptar las tablas y sus relaciones a las neces
 - *Tabla "territorios": se agregó una nueva tabla para organizar la información geográfica y relacionarla con las ventas.
 - *Tabla "ventas": se incorporaron 'id_territorio' y 'total_venta', permitiendo identificar el territorio asociado a cada venta y calcular los ingresos generados.
 - *Relaciones entre tablas: se establecieron claves primarias y foráneas para relacionar clientes, productos, categorías, territorios y ventas.
-- *Se cambió la nomenclatura en inglés utilizada en el Módulo 3 al español para su facil referncia.
+
 También se completaron los registros de las nuevas columnas y tablas con datos ficticios para poder realizar consultas y ejercicios sobre la base de datos.
 
 ### Objetivo de las modificaciones
