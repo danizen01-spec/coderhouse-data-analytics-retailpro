@@ -1,7 +1,8 @@
 -- ══════════════════════════════════════════
 -- Autor: Daniel Zenteno Novosel
 -- Fecha: 24/10/2026
--- ══════════════════════════════════════════USE Ventas_Tech_DB
+-- ══════════════════════════════════════════
+USE Ventas_Tech_DB
 -- === Consulta 1:RESUMEN EJECUTIVO MENSUAL===
 
 SELECT SUM (quantity * unit_price) AS total_facturado, 
