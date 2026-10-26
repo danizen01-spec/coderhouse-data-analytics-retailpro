@@ -1,1 +1,15 @@
 consultas.sql
+
+Módulos 3 y 5
+Para mantener la continuidad con los objetivos definidos en el Módulo 1, se realizaron las siguientes modificaciones:
+
+Clientes: incorporación de segmento.
+Productos: incorporación de costo.
+Territorios: creación de una tabla para clasificar las ventas geográficamente.
+Ventas: incorporación de id_territorio y total_venta.
+Relaciones: implementación de claves primarias y foráneas entre las tablas.
+
+Además, se amplió la base ficticia a 30 clientes, 20 productos, 4 categorías, 8 territorios y 100 ventas, distribuidas entre enero y septiembre de 2024.
+Se incluyeron clientes sin compras y productos sin ventas para practicar LEFT JOIN. Se mantuvo la reproducibilidad del script SQL.
+
+Uso de IA: se utilizó ChatGPT (OpenAI) como apoyo para generar los registros ficticios de la base ampliada.
