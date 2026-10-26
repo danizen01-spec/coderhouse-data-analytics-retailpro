@@ -1,23 +1,21 @@
 # coderhouse-data-analytics-retailpr
 
-En el Módulo 4 se mantuvo la nomenclatura en inglés de la tabla sales y sus columnas, siguiendo la estructura utilizada en la actividad original.
-Las consultas desarrolladas permiten analizar la facturación mensual, identificar los productos con mayores ingresos, reconocer clientes recurrentes y comparar las ventas mensuales con su promedio.
-En caso de reutilizar estas consultas en el proyecto RetailPro, se adaptarán los nombres de las tablas y columnas al español, manteniendo la coherencia con las modificaciones realizadas desde el Módulo 1.
-Estas diferencias de nomenclatura no afectan el objetivo de la actividad.
+Adaptaciones de la base de datos — RetailPro
 
-## Adaptaciones de la base de datos al proyecto RetailPro del Modulo 3 para el el Modulo 5.
-Para mantener la continuidad con el proyecto RetailPro, desarrollado desde el Módulo 1, se realizaron algunas modificaciones en la estructura original de la base de datos.
-El objetivo de estos cambios fue adaptar las tablas y sus relaciones a las necesidades de análisis planteadas anteriormente, permitiendo trabajar con información más completa y coherente con el caso de negocio.
+Módulo 4
+Se mantuvo la nomenclatura original en inglés de la tabla sales y sus columnas. Las consultas permiten analizar la facturación mensual, los productos más rentables en términos de ingresos, los clientes recurrentes y las variaciones respecto al promedio mensual. 
+Para su aplicación en RetailPro, en caso de ser reutilizada será necesario adaptar los nombres al español.
 
-### Cambios realizados
-- *Tabla "clientes": se agregó la columna 'segmento' para clasificar a los clientes y permitir futuros análisis según su perfil.
-- *Tabla "productos": se incorporó la columna 'costo' para diferenciar el precio de venta del costo del producto y permitir análisis de rentabilidad.
-- *Tabla "territorios": se agregó una nueva tabla para organizar la información geográfica y relacionarla con las ventas.
-- *Tabla "ventas": se incorporaron 'id_territorio' y 'total_venta', permitiendo identificar el territorio asociado a cada venta y calcular los ingresos generados.
-- *Relaciones entre tablas: se establecieron claves primarias y foráneas para relacionar clientes, productos, categorías, territorios y ventas.
+Módulos 3 y 5
+Para mantener la continuidad con los objetivos definidos en el Módulo 1, se realizaron las siguientes modificaciones:
 
-También se completaron los registros de las nuevas columnas y tablas con datos ficticios para poder realizar consultas y ejercicios sobre la base de datos.
+Clientes: incorporación de segmento.
+Productos: incorporación de costo.
+Territorios: creación de una tabla para clasificar las ventas geográficamente.
+Ventas: incorporación de id_territorio y total_venta.
+Relaciones: implementación de claves primarias y foráneas entre las tablas.
 
-### Objetivo de las modificaciones
-Estos cambios permiten que la base de datos responda mejor a las preguntas de negocio y a los indicadores (KPI) definidos en el Módulo 1, como las ventas totales, las unidades vendidas, el ticket promedio, los productos más vendidos y la distribución geográfica de las ventas.
-De esta manera, se busca mantener una misma línea de trabajo a lo largo de los módulos, utilizando una estructura de datos que permita desarrollar progresivamente el análisis del proyecto RetailPro.
+Además, se amplió la base ficticia a 30 clientes, 20 productos, 4 categorías, 8 territorios y 100 ventas, distribuidas entre enero y septiembre de 2024.
+Se incluyeron clientes sin compras y productos sin ventas para practicar LEFT JOIN. Se mantuvo la reproducibilidad del script SQL.
+
+Uso de IA: se utilizó ChatGPT (OpenAI) como apoyo para generar los registros ficticios de la base ampliada.
