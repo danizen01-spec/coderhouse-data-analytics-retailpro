@@ -1,1 +1,69 @@
+RetailPro — Proyecto de Análisis de Datos
+Descripción del proyecto
+RetailPro es un proyecto de análisis de datos orientado al estudio del comportamiento comercial de una empresa minorista.
 
+Su objetivo es analizar la evolución de las ventas, identificar los productos con mayor rendimiento y proporcionar información relevante para facilitar la toma de decisiones comerciales.
+
+El proyecto comprende distintas etapas del proceso de análisis de datos, desde la organización y preparación de la información hasta la elaboración de consultas SQL y visualizaciones interactivas.
+Objetivos
+- Analizar las tendencias de compra y el comportamiento de las ventas de los productos durante el último trimestre.
+- Identificar los productos y categorías con mayor facturación.
+- Examinar el comportamiento de compra de los clientes.
+- Evaluar indicadores comerciales como facturación total, cantidad de ventas y ticket promedio.
+- Presentar los resultados mediante informes y dashboards.
+Herramientas utilizadas
+SQL Server y SQL Server Management Studio (SSMS): creación y administración de bases de datos, definición de tablas, relaciones y ejecución de consultas SQL.
+
+Microsoft Excel: almacenamiento, exploración y revisión inicial de los datos.
+
+Power Query: limpieza y transformación de datos, incluyendo la eliminación de duplicados, corrección de tipos de datos, estandarización de textos y revisión de valores nulos.
+
+Power BI: modelado de datos, creación de medidas DAX y elaboración de visualizaciones.
+
+GitHub: almacenamiento y organización de los archivos correspondientes a las distintas etapas del proyecto.
+Estructura de los datos
+El proyecto utiliza información relacionada con las ventas, los clientes, los productos y su clasificación comercial.
+
+Las principales tablas utilizadas son:
+- clientes: información de los compradores.
+- productos: información y características de los artículos.
+- categorias: clasificación de los productos.
+- ventas: registro de las operaciones comerciales.
+- territorios: información sobre la distribución geográfica de las ventas.
+Estas tablas se relacionan mediante identificadores que permiten integrar la información para su análisis.
+Consultas SQL
+Las consultas desarrolladas permiten explorar los datos, relacionar tablas y obtener indicadores comerciales.
+
+Entre las operaciones utilizadas se encuentran:
+- SELECT para recuperar información.
+- INNER JOIN para relacionar tablas.
+- GROUP BY para agrupar registros.
+- SUM, COUNT y AVG para calcular métricas.
+- ORDER BY para ordenar resultados.
+- TOP para obtener rankings.
+Cómo ejecutar los scripts SQL
+1. Abrir SQL Server Management Studio (SSMS).
+2. Conectarse a una instancia de SQL Server.
+3. Seleccionar la base de datos Ventas_Tech_DB en SSMS antes de ejecutar los scripts, verificando previamente que existan las tablas necesarias.
+4. Abrir el archivo .sql que se desea ejecutar.
+5. Revisar el código y ejecutar las instrucciones mediante el botón Execute o la tecla F5.
+6. Consultar los resultados en la pestaña Results.
+Antes de ejecutar scripts que creen o modifiquen tablas, se recomienda comprobar que se está trabajando sobre la base de datos correcta.
+Análisis y visualización
+Los datos preparados se utilizan en Power BI para construir un modelo relacional y desarrollar indicadores mediante DAX.
+
+El análisis contempla métricas como:
+- Ventas totales.
+- Ventas por canal.
+- Ventas acumuladas en el año (YTD).
+- Ventas del año anterior.
+- Porcentaje de crecimiento anual.
+Estas métricas permiten analizar el desempeño comercial desde distintas perspectivas.
+Módulo 9 — Inteligencia Artificial aplicada al proyecto
+En esta etapa se utiliza inteligencia artificial como herramienta de apoyo para revisar consultas SQL, interpretar resultados comerciales y generar documentación técnica.
+
+Las actividades incluyen la evaluación crítica de las recomendaciones obtenidas y la revisión de los contenidos generados antes de incorporarlos al proyecto.
+Conclusión
+RetailPro integra herramientas de gestión, transformación, análisis y visualización de datos para estudiar el rendimiento comercial de una empresa.
+
+El proyecto permite aplicar conocimientos de SQL, modelado de datos y visualización, con el objetivo de transformar registros comerciales en información útil para la toma de decisiones.
